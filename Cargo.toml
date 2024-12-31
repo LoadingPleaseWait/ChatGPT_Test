@@ -1,0 +1,8 @@
+[package]
+name = "chatgpt_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.4.0", features = ["rt", "rt-multi-thread", "macros"] }
+chatgpt_rs = "1"
